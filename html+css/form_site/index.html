@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <form method="post" enctype="multipart/form-data" action="#"></form>
+    <p>Имя</p>
+    <input tabindex="1" name="name" placeholder="Name" type="text">
+    <p>Фамилия</p>
+    <input name="surname" placeholder="Surname" type="text">
+    <p>Номер телефона</p>
+     <input name="number" placeholder="Number" type="tell">
+     <p>Пароль</p>
+     <input placeholder="Password" name="password" type="password">
+     <p>Пол</p>
+     <input checked name="gender" id="gen" type="radio">
+     <label for="gen">Мужчина</label>
+     <input name="gender" id="gen" type="radio">
+     <label for="gen">Женщина</label>
+     <p>Паспорт (Фото)</p>
+     <input name="file" type="file">
+     </header>
+     <nav>
+         <p>Имущество</p>
+         <input name="home" id="home" checked type="checkbox">
+         <label for="home">Дом</label>
+         <input name="app" id="app" type="checkbox">
+         <label for="app">Квартира</label>
+         <input name="car" id="car" type="checkbox">
+         <label for="car">Машина</label>
+         <div>
+         <textarea placeholder="Дополнительная информция" name="info" id="info" cols="30" rows="2"></textarea>
+         </div>
+         <br>
+         <p>Населенный пункт</p>
+         <select name="life"  id="life">
+             <option value="life">Донецк</option>
+             <option value="life">Краматорск</option>
+             <option value="life">Горловка</option>
+             <option value="life">Константиновка</option>
+             <option value="life">Торецк</option>
+         </select>
+         <p>Адрес</p>
+         <input name="adres" id="ades" placeholder="Не обязательно" disabled type="text">
+          
+         <h4>_______________</h4>
+     </nav>
+     <footer>
+         <button type="submit">Отправить данные</button>
+         <br>
+         <br>
+         <button type="reset">Очистить данные</button>
+     </footer>
+     
+
+</body>
+</html>

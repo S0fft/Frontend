@@ -1,0 +1,46 @@
+body {
+  background-image: url(./img/background_003.jpg);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.socialnetwork {
+  display: flex;
+  text-decoration: none;
+  height: 1.2em;
+  border-radius: 0.7em;
+  border: 1px solid #000;
+  width: fit-content;
+  padding: 0.2em;
+  font-size: 2em;
+  width: fit-content;
+  background-color: white;
+}
+
+.socialnetwork__icon {
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+}
+
+.socialnetwork:hover {
+  color: red;
+  text-decoration: underline;
+  box-shadow: 2px 2px 2px 2px black;
+  transition: druration 1s;
+}
+
+.socialnetwork:active {
+  background-color: #eee;
+  color: blue;
+}
+
+.socialnetwork:focus {
+  color: red;
+  text-decoration: underline;
+  box-shadow: 2px 2px 2px 2px black;
+}

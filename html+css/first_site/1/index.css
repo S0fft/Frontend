@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url(C:\Users\pelik\Desktop\2211.png);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 0;
+}
+.lip{
+    font-weight: 650;
+}
+h4{
+    text-indent: 10px;
+    text-decoration: underline;
+}
+.years{
+    font-weight: 650;
+    font-size: small;
+}
+.small{
+    font-size: small;
+    font-weight: 650;
+}
+.gg{
+    font-weight: 650;
+}
+.small-year{
+    font-weight: 650;
+    font-size: small;
+}
+.go{
+    font-style: italic;
+}
+

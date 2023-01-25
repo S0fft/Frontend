@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Still</title>
+</head>
+<body>
+    <form action="#" method="get" enctype="multipart/form-data" ></form>
+    <div>
+    <p><input type="radio" name="buy book" value="buy" checked />Купить кингу [1]</p>
+    <p><input type="radio" name="buy book" value="buy2" />Купить кингу [2]</p>
+    </div>
+    <br>
+    <div>
+    <p><input type="radio" name="buy jaket" value="buy"checked />Купить куртку [1]</p>
+    <p><input type="radio" name="buy jacket" value="buy2" />Купить куртку [2]</p>
+    <br>
+    <p><input type="checkbox" name="jacket in" value="in" checked></p>
+    </div>
+    <br>
+    <div><input type="file">
+    </div>
+    <br>
+    <br>
+    <div>
+        <textarea name="text">
+        </textarea>
+        </div>
+    <br>
+      <select name="coolor" id="">
+          <option selected value="red">Красный</option>
+          <option value="green">Зеленый</option>
+          <option value="yellow">Желтый</option>
+    </select>
+    <br>
+    <button type="reset">Send</button>
+</body>
+</html>
